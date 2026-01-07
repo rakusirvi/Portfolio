@@ -22,7 +22,7 @@ const ToolAndTech = () => {
 
         <div className="text-black font-medium text-xl flex ">
           <ul className="p-4">
-            <h1 className="font-semibold text-primary ">Languages</h1>
+            <h1 className="font-semibold text-primary ">FrameWork</h1>
             {tech.frameWork.map((item, idx) => (
               <li className="m-2">{item}</li>
             ))}
@@ -31,7 +31,7 @@ const ToolAndTech = () => {
 
         <div className="text-black font-medium text-xl flex">
           <ul className="p-4">
-            <h1 className="font-semibold text-primary ">Languages</h1>
+            <h1 className="font-semibold text-primary ">Developer Tools</h1>
             {tech.developerTool.map((item, idx) => (
               <li className="m-2">{item}</li>
             ))}
@@ -40,7 +40,7 @@ const ToolAndTech = () => {
 
         <div className="text-black font-medium text-xl flex">
           <ul className="p-4">
-            <h1 className="font-semibold text-primary ">Languages</h1>
+            <h1 className="font-semibold text-primary ">Backend</h1>
             {tech.backend.map((item, idx) => (
               <li className="m-2">{item}</li>
             ))}

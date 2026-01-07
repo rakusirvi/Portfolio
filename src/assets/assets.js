@@ -3,7 +3,8 @@ import Prime from "./ProjectImages/Prime.png";
 import QuickShow from "./ProjectImages/QuickShow.png";
 import ResQnow from "./ProjectImages/ResQnow.png";
 import Protfolio from "./ProjectImages/Protfolio.png";
-
+import ProtfolioImg1 from "./ProjectImages/ProtfolioImg1.png";
+import PrimeImg1 from "./ProjectImages/PrimeImg1.png";
 export const projects = [
   {
     id: "P01",
@@ -66,7 +67,7 @@ export const projects = [
       "Prime Clone replicates the Prime brand’s identity, packaging visuals, and website interface to practice UI/UX workflows.",
     projectTimeline: "Pending",
     img1: Prime,
-    img2: Prime,
+    img2: PrimeImg1,
     learning:
       "Learned how to translate physical branding into digital UI and maintain responsiveness.",
     futureEnhancement:
@@ -86,12 +87,12 @@ export const projects = [
       "A responsive portfolio built with React JS and Tailwind CSS, using useState, useEffect, React Router, and toast notifications. It showcases my projects, skills, and contact information with a scroll-based navbar and mobile-friendly design.",
     detailDescription:
       "Portfolio website showcasing projects, skills, and contact details with smooth navigation and responsive design.",
-    projectTimeline: "Completed",
+    projectTimeline: "Pending",
     img1: Protfolio,
-    img2: Protfolio,
+    img2: ProtfolioImg1,
     learning:
       "Learned React Router, state management, and responsive design principles.",
-    futureEnhancement: "Adding blog section and dark/light theme toggle.",
+    futureEnhancement: "Adding Backend and dark/light theme toggle.",
     purpose:
       "To present my work and skills in a professional, interactive way.",
     collaborativeMember: ["Rakesh Choudhary"],
